@@ -17,10 +17,15 @@ jobs:
             - name: Deploy
               run: |
                   echo "Deploy"
+
     check:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: check
+            - name: Install Dummy Dependencies
+              run: |
+                  echo '{"dependencies": {"dummy-package": "1.0.0"}}' > package.json
+                  npm install
+            - name: Check
               run: |
                   echo "Check"

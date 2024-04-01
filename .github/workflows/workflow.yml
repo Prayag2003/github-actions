@@ -13,7 +13,7 @@ jobs:
                   echo "Build"
             - name: Build Code
               run: |
-                  ../hello.sh
+                  hello.sh
             - name: Test
               run: |
                   echo "Test"

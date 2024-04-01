@@ -11,6 +11,9 @@ jobs:
             - name: Build
               run: |
                   echo "Build"
+            - name: Build Code
+              run: |
+                  ../hello.sh
             - name: Test
               run: |
                   echo "Test"

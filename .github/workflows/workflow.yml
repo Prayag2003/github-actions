@@ -11,14 +11,8 @@ jobs:
             - name: Build
               run: |
                   echo "Build"
-<<<<<<< HEAD
             - name: Run sample bash script
               run: ../../hello.sh
-=======
-            - name: Build Code
-              run: |
-                  hello.sh
->>>>>>> a3b9a8393f49ea45c4b134d46d502f60360a5dff
             - name: Test
               run: |
                   echo "Test"

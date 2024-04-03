@@ -57,4 +57,4 @@ If you're new to GitHub Actions or want to learn more, here are some helpful res
 
 We welcome contributions from everyone! If you have suggestions for improving this workflow or find any issues, please feel free to submit a pull request or open an issue in this repository.
 
-Happy automating!
+Happy automating! This is an edit to check if the actions are working or not.
